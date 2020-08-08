@@ -1,0 +1,69 @@
+body {
+  background: #e2e1e0;
+  font-family: "Roboto";
+  padding-top: 30px;
+}
+
+.App {
+  text-align: center;
+}
+
+.heading {
+  margin-bottom: 2rem;
+  font-size: 2.8rem;
+}
+
+.container {
+  width: 300px;
+  padding: 0;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.row {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.btn-default {
+  border: none;
+  margin: 0;
+  padding: 0;
+  border-radius: 0;
+  width: 75px;
+  height: 50px;
+  line-height: 50px;
+  color: #fff;
+  font-size: 1.1em;
+  background: #404040;
+}
+
+.op_key,
+.eq_key {
+  background: #606060;
+}
+
+.op_key.disabled-btn,
+.eq_key.disabled-btn {
+  color: #888888;
+}
+
+#display_1 {
+  text-align: right;
+  color: #606060;
+  width: 300px;
+  padding: 0 5px;
+  background: #fff;
+  font-size: 2.5em;
+  /*scroller*/
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.selected {
+  background: #909090;
+}
+
+.disabled-btn {
+  color: #606060;
+  pointer-events: none;
+}
